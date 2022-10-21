@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C9AFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:text="PRFPTSC \nAll in One App!"
+        android:layout_above="@+id/button_layout"
+        android:textAlignment="center"
+        android:textColor="#1C9AFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingVertical="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3C4CAA"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Checking Palindrome"
+                android:textStyle="bold"
+                android:textSize="31dp"
+                android:textColor="@color/white"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_palindrome"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#1B93CA"
+                android:text="P"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3C4CAA"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reverse any String"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_reverse"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:layout_marginLeft="200dp"
+                android:backgroundTint="#1B93CA"
+                android:text="Reverse"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3C4CAA"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Factorial of Number "
+                android:textStyle="bold"
+                android:textSize="32dp"
+                android:textColor="@color/white"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_factorial"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#1B93CA"
+                android:text="F"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3C4CAA"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Check Prime Number "
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/white"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_prime"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#1B93CA"
+                android:text="P"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3C4CAA"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Table of a Number"
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:textColor="@color/white"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_table"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#1B93CA"
+                android:text="T"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3C4CAA"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simple Interest      "
+                android:textStyle="bold"
+                android:textSize="35dp"
+                android:textColor="@color/white"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_si"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#1B93CA"
+                android:text="S"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3C4CAA"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compound Interest "
+                android:textStyle="bold"
+                android:textSize="33dp"
+                android:textColor="@color/white"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_ci"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#1B93CA"
+                android:text="C"
+                android:textColor="@color/white"
+                android:textSize="35dp"
+                app:cornerRadius="25dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
